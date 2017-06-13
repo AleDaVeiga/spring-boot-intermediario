@@ -1,7 +1,7 @@
-"# spring-boot-intermediario" 
+# spring-boot-intermediario
 
-# Para executar a aplicação
+## Para executar a aplicação
 
 ``````
-` mvn spring-boot:run
+ mvn spring-boot:run
 ``````
