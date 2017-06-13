@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Edit Task</title>
+</head>
+<body>
+	<form id="formTask" action="/tasks/edit/{{task.id}}" method="POST">
+		<label for="name">Name:</label>
+		<input id="name" type="text" value="{{task.name}}"/>
+		<input type="submit" value="Edit" id="btnEdit"/>
+	</form>
+</body>
+</html>
